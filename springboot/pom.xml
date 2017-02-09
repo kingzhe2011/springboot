@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.wisely</groupId>
+	<artifactId>springboot</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.1.RELEASE</version>
+	</parent>
+
+	<name>sprongboot</name>
+	<description>Spring Boot Setup Demo</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<modules>
+		<module>ch5_2_2</module>
+		<module>ch5_2_3</module>
+		<module>ch6_2_3</module>
+		<module>ch6_4</module>
+		<module>ch6_5</module>
+		<module>ch7_2</module>
+		<module>ch7_4</module>
+		<module>ch7_6</module>
+		<module>ch7_7</module>
+		<module>ch8_2</module>
+		<module>ch8_3</module>
+		<module>ch8_4</module>
+		<module>ch8_5</module>
+		<module>ch8_6_1</module>
+		<module>ch8_6_2</module>
+		<module>ch9_1</module>
+		<module>ch9_2</module>
+		<module>ch9_3_4</module>
+		<module>ch9_3_5</module>
+		<!--<module>ch10</module> -->
+		<!--<module>ch10_4</module> -->
+		<!--<module>ch10docker</module> -->
+		<!--<module>ch10war</module> -->
+		<module>ch11_1</module>
+		<module>ch11_3</module>
+		<!--<module>ch12</module> -->
+		<!--<module>highlight_spring4</module> -->
+		<!--<module>highlight_springmvc4</module> -->
+		<module>spring-boot-starter-hello</module>
+	</modules>
+
+</project>
